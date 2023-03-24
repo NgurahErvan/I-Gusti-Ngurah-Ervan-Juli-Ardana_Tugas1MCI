@@ -13,6 +13,8 @@ SELECT nama, ukt FROM mahasiswa
 WHERE ukt = (SELECT MAX(ukt) 
 			 FROM mahasiswa)
 ```
+![Screenshot (404)](https://user-images.githubusercontent.com/114007640/227573416-7afb40e5-50c9-4268-b5ee-f7be1a16b76f.png)
+
 ### No2
 ```
 SELECT nama, ukt FROM mahasiswa
